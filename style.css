@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+input[type=number]{
+    width: 220px;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    font-size: 1cm;
+    text-align: center;
+    border: 1px solid #4d2600;
+    outline: none;
+    border-radius: 5px;
+
+}
+#temp-box{
+    position: absolute;
+    left: 40vw;
+    top: 20vh;
+    height: 540px;
+    width: 300px;
+    background: -webkit-linear-gradient(top,#757575 1%, #c9c9c9 51%,#757575 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #222;
+}
+
+#temp-box img{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    top: 50px;
+    left: 80px;
+}
+#celsius{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 50px;
+    top: 350px;
+
+
+}
+
+#fahrenheit{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 50px;
+    top: 350px;
+
+
+}
+
+#kelvin{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 50px;
+    top: 350px;
+
+
+}
+
+::placeholder{
+    color: #000;
+    text-align: center;
+    font: 20px;
+}
